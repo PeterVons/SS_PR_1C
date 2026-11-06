@@ -1,0 +1,8 @@
+from kivy.app import App
+from kivy.uix.textinput import TextInput
+
+class app_03_01(App)
+    def build(self)
+       return TextInput()
+
+app_03_01().run()       
